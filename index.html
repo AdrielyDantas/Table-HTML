@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tabela HTML</title>
+<style>
+  body {
+    font-family: sans-serif;
+  }
+  table {
+    border-collapse:collapse;
+    width: 40%;
+  }
+  table td, table th {
+    border: 1px solid #ccc;
+    padding: 5px;
+    text-align: center;
+  }
+  table caption {
+    caption-side: bottom;
+    text-align: left;
+    font-style: italic;
+    font-size: 14px;
+    margin: 5px 0;
+  }
+  tfoot td, table th {
+    background-color: #ddd;
+  }
+
+  table td {
+    font-style: italic;
+  }
+
+</style>
+</head>
+<body>
+  <b>
+ <p>Listas de produtos</p>
+</b>
+ <table>
+  <caption>total da compra= R$ 30,98</caption>
+  <thead>
+    <tr>
+      <th>Produto</th>
+      <th>Quantidade</th>
+      <th>Valor</th>
+    </tr>
+  </thead>
+
+  <tbody>
+<tr>
+  <td>Biscoito</td>
+  <td>3</td>
+  <td>R$ 4,99</td>
+</tr>
+<tr>
+  <td>Refrigerante</td>
+  <td>2</td>
+  <td>R$ 5,99</td>
+</tr>
+<tr>
+  <td>Bolo de morango</td>
+  <td>1</td>
+  <td>R$ 20,00</td>
+</tr>
+  </tbody>
+  <tfoot>
+    <tr>
+      <b>
+      <td> <b>TOTAL:</b></td>
+      <td colspan="2">R$ 30,98</td>
+    </tr>
+  </tfoot>
+ </table>
+</body>
+</html>
